@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Customize.unity
     guid: 9eb45939beecab94e9f3fc1e689cba87
   - enabled: 1
+    path: Assets/Scenes/Delay.unity
+    guid: 5defa01b6d24a5f4094b9c61cccbc8d0
+  - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: e53640f1917d3a147929edca33ae3a18
   - enabled: 1
@@ -59,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level15.unity
     guid: d5c8c29822e274b4c91ce397b7129f78
+  - enabled: 1
+    path: Assets/Scenes/OptionInGame.unity
+    guid: bde90c0c91c4f7240b56cbeead03a464
   m_configObjects: {}

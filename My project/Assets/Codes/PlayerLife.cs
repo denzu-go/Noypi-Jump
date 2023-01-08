@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,7 +10,7 @@ using UnityEngine.SceneManagement;
 public class PlayerLife : MonoBehaviour
 {
     private Rigidbody2D rb;
- 
+    public AudioSource deathsound;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -33,7 +34,7 @@ public class PlayerLife : MonoBehaviour
     {
         rb.bodyType = RigidbodyType2D.Static;
         this.gameObject.GetComponent<Animator>().SetTrigger("Death");
-
+        deathsound.Play();
     }
 
     private void RestartLevel()

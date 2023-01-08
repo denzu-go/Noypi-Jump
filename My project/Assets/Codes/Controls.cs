@@ -19,6 +19,10 @@ public class Controls : MonoBehaviour
 
 
     private Rigidbody2D rb;
+    public AudioSource jumpingSound;
+    public AudioSource RunningSound;
+ 
+
 
     void Start()
     {
@@ -38,6 +42,7 @@ public class Controls : MonoBehaviour
             this.gameObject.transform.Translate(new Vector3(6 * Time.deltaTime, 0, 0));
             this.gameObject.transform.localScale = new Vector3(1f, 1f, 1);
             this.gameObject.GetComponent<Animator>().SetBool("IsWalking", true);
+            
         }
 
         if (Input.GetKey(KeyCode.A))
@@ -45,13 +50,18 @@ public class Controls : MonoBehaviour
             this.gameObject.transform.Translate(new Vector3(-6 * Time.deltaTime, 0, 0));
             this.gameObject.transform.localScale = new Vector3(-1f, 1f, 1);
             this.gameObject.GetComponent<Animator>().SetBool("IsWalking", true);
+          
         }
-
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) && isGrounded == true)
+        {
+            RunningSound.Play();
+        }
 
         //Idle
         if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
         {
             this.gameObject.GetComponent<Animator>().SetBool("IsWalking", false);
+            RunningSound.Stop();
         }
 
 
@@ -62,6 +72,8 @@ public class Controls : MonoBehaviour
             rb.velocity = Vector2.up * jumpHeight;
             this.gameObject.GetComponent<Animator>().SetBool("Jumping", true);
             jump = 0;
+            jumpingSound.Play();
+
         } 
 
         if (isGrounded == true)

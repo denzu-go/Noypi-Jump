@@ -151,17 +151,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64034954}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1354560480}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 7
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -754, y: 0}
+  m_AnchoredPosition: {x: -652.5094, y: -138.42102}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &64034956
@@ -210,7 +210,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 64034959}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 8
+  kagome: {fileID: 1909097384}
 --- !u!1 &80512753
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,21 +365,7 @@ RectTransform:
   m_Children:
   - {fileID: 1436917962}
   - {fileID: 1531991775}
-  - {fileID: 1471189638}
-  - {fileID: 1745669868}
-  - {fileID: 301723054}
-  - {fileID: 1970203545}
-  - {fileID: 1231395181}
-  - {fileID: 64034955}
-  - {fileID: 379909104}
-  - {fileID: 1174579086}
-  - {fileID: 1470812753}
-  - {fileID: 1022132668}
-  - {fileID: 1787966346}
-  - {fileID: 1973977509}
-  - {fileID: 1244516371}
-  - {fileID: 1861047914}
-  - {fileID: 1570736946}
+  - {fileID: 2060445521}
   - {fileID: 1128247761}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -686,18 +672,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301723053}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1957733551}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 4
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242, y: 368}
+  m_AnchoredPosition: {x: 343.4906, y: 229.57898}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301723055
@@ -746,7 +732,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 301723058}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -806,7 +792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 5
+  kagome: {fileID: 1909097384}
 --- !u!1 &379909103
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,17 +821,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379909103}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 387816207}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 8
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -356, y: 0}
+  m_AnchoredPosition: {x: -254.5094, y: -138.42102}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &379909105
@@ -894,7 +880,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 379909108}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -954,7 +940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 9
+  kagome: {fileID: 1909097384}
 --- !u!1 &387816206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,17 +1661,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022132667}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 226006034}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 11
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 847, y: 0}
+  m_AnchoredPosition: {x: 948.4906, y: -138.42102}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1022132669
@@ -1734,7 +1720,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1022132672}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button10
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1794,7 +1780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 12
+  kagome: {fileID: 1909097384}
 --- !u!1 &1128247760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,7 +1814,7 @@ RectTransform:
   m_Children:
   - {fileID: 1258376561}
   m_Father: {fileID: 80512757}
-  m_RootOrder: 17
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1957,17 +1943,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174579085}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 507186345}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 9
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42, y: 0}
+  m_AnchoredPosition: {x: 143.4906, y: -138.42102}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174579087
@@ -2016,7 +2002,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1174579090}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button8
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2076,7 +2062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 10
+  kagome: {fileID: 1909097384}
 --- !u!1 &1231395180
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,18 +2090,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231395180}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2028938774}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 6
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 851, y: 368}
+  m_AnchoredPosition: {x: 952.4906, y: 229.57898}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1231395182
@@ -2164,7 +2150,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1231395185}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2224,7 +2210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 7
+  kagome: {fileID: 1909097384}
 --- !u!1 &1244516370
 GameObject:
   m_ObjectHideFlags: 0
@@ -2253,17 +2239,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244516370}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1800013898}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 14
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 37, y: -341}
+  m_AnchoredPosition: {x: 138.4906, y: -479.42102}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1244516372
@@ -2312,7 +2298,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1244516375}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button13
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2372,7 +2358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 15
+  kagome: {fileID: 1909097384}
 --- !u!1 &1258376560
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,17 +3000,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470812752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 752857658}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 10
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 446, y: 0}
+  m_AnchoredPosition: {x: 547.4906, y: -138.42102}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470812754
@@ -3073,7 +3059,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1470812757}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3133,7 +3119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 11
+  kagome: {fileID: 1909097384}
 --- !u!1 &1471189637
 GameObject:
   m_ObjectHideFlags: 0
@@ -3161,18 +3147,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471189637}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 434672273}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 2
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -360, y: 365}
+  m_AnchoredPosition: {x: -258.5094, y: 226.57898}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1471189639
@@ -3221,7 +3207,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1471189642}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3281,7 +3267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 3
+  kagome: {fileID: 1909097384}
 --- !u!1 &1531991774
 GameObject:
   m_ObjectHideFlags: 0
@@ -3383,17 +3369,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570736945}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1437204765}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 16
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 844, y: -341}
+  m_AnchoredPosition: {x: 945.4906, y: -479.42102}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570736947
@@ -3442,7 +3428,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1570736950}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button15
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3502,7 +3488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 17
+  kagome: {fileID: 1909097384}
 --- !u!1001 &1698523105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3569,7 +3555,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6159836972773746920, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
   m_PrefabInstance: {fileID: 1698523105}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1909097383}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33f174356953f004a91e6aca27f6484c, type: 3}
@@ -3602,18 +3588,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745669867}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1790761488}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 3
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -56, y: 370}
+  m_AnchoredPosition: {x: 45.4906, y: 231.57898}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1745669869
@@ -3662,7 +3648,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1745669872}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3722,7 +3708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 4
+  kagome: {fileID: 1909097384}
 --- !u!1 &1787966345
 GameObject:
   m_ObjectHideFlags: 0
@@ -3751,17 +3737,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787966345}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1310443289}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 12
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -757, y: -341}
+  m_AnchoredPosition: {x: -655.5094, y: -479.42102}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1787966347
@@ -3810,7 +3796,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1787966350}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button11
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3870,7 +3856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 13
+  kagome: {fileID: 1909097384}
 --- !u!1 &1790761487
 GameObject:
   m_ObjectHideFlags: 0
@@ -4169,17 +4155,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861047913}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 251044425}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 15
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 440, y: -341}
+  m_AnchoredPosition: {x: 541.4906, y: -479.42102}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1861047915
@@ -4228,7 +4214,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1861047918}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button14
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4288,7 +4274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 16
+  kagome: {fileID: 1909097384}
 --- !u!1 &1903353853
 GameObject:
   m_ObjectHideFlags: 0
@@ -4424,6 +4410,107 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903353853}
   m_CullTransparentMesh: 1
+--- !u!1 &1909097383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6159836972773746922, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
+  m_PrefabInstance: {fileID: 1698523105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1909097384
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909097383}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 03d9bf26359b6004b8f41dfb5761e249, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.159
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1957733550
 GameObject:
   m_ObjectHideFlags: 0
@@ -4586,18 +4673,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970203544}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2121312661}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 5
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 543, y: 369}
+  m_AnchoredPosition: {x: 644.4906, y: 230.57898}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1970203546
@@ -4646,7 +4733,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1970203549}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4706,7 +4793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 6
+  kagome: {fileID: 1909097384}
 --- !u!1 &1973977508
 GameObject:
   m_ObjectHideFlags: 0
@@ -4735,17 +4822,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973977508}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -11.615762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1903353854}
-  m_Father: {fileID: 80512757}
-  m_RootOrder: 13
+  m_Father: {fileID: 2060445521}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -362, y: -341}
+  m_AnchoredPosition: {x: -260.5094, y: -479.42102}
   m_SizeDelta: {x: 202.9548, y: 213.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1973977510
@@ -4794,7 +4881,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1973977513}
         m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
-        m_MethodName: sceneLoader
+        m_MethodName: Button12
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4854,7 +4941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 14
+  kagome: {fileID: 1909097384}
 --- !u!1 &2028938773
 GameObject:
   m_ObjectHideFlags: 0
@@ -4990,6 +5077,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028938773}
   m_CullTransparentMesh: 1
+--- !u!1 &2060445520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2060445521}
+  m_Layer: 0
+  m_Name: levels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2060445521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060445520}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -101.4906, y: 138.42102, z: 11.615762}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1471189638}
+  - {fileID: 1745669868}
+  - {fileID: 301723054}
+  - {fileID: 1970203545}
+  - {fileID: 1231395181}
+  - {fileID: 64034955}
+  - {fileID: 379909104}
+  - {fileID: 1174579086}
+  - {fileID: 1470812753}
+  - {fileID: 1022132668}
+  - {fileID: 1787966346}
+  - {fileID: 1973977509}
+  - {fileID: 1244516371}
+  - {fileID: 1861047914}
+  - {fileID: 1570736946}
+  m_Father: {fileID: 80512757}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2121312660
 GameObject:
   m_ObjectHideFlags: 0
