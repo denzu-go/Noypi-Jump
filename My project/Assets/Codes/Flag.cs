@@ -21,6 +21,6 @@ public class Flag : MonoBehaviour
 
     private void nextLevel()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 }

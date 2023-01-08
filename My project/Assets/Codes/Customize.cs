@@ -20,8 +20,9 @@ public class Customize : MonoBehaviour
     public string Name;
 
 
-    public GameObject Text;
+   
     public GameObject Character;
+
 
 
     public List<Sprite> Heads = new List<Sprite>();
@@ -31,12 +32,12 @@ public class Customize : MonoBehaviour
     public List<Sprite> Rlegs = new List<Sprite>();
     public List<Sprite> Llegs = new List<Sprite>();
 
-    private int currentOption = 0;
+    private static int currentOption = 0;
 
     private void Start()
     {
         Name = "Caloocan Boy";
-        Text.gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = Name + "";
+        
     }
     public void NextOption()
     {
@@ -53,41 +54,17 @@ public class Customize : MonoBehaviour
         Rleg.sprite = Rlegs[currentOption];
         Lleg.sprite = Llegs[currentOption];
 
-        if (currentOption == 0)
-        {
-            Name = "Caloocan Boy";
-            Text.gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = Name + "";
-        }
-        if (currentOption == 1)
-        {
-            Name = "BULALORD";
-            Text.gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = Name + "";
-        }
-        if (currentOption == 2)
-        {
-            Name = "Cardo Dalisay";
-            Text.gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = Name + "";
-        }
-        if (currentOption == 3)
-        {
-            Name = "ED Caluag";
-            Text.gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = Name + "";
-        }
-        if (currentOption == 4)
-        {
-            Name = "OTLUM";
-            Text.gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = Name + "";
-        }
-        if (currentOption == 5)
-        {
-            Name = "Queen Yasmin";
-            Text.gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = Name + "";
-        }
-
+     
     }
 
 
+    public void submit()
+    {
 
+        
+            SceneManager.LoadScene(1);
+     
+    }
 
 }
 

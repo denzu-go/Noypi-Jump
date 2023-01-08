@@ -455,8 +455,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 850207713}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+      - m_Target: {fileID: 1412039817}
+        m_TargetAssemblyTypeName: BackgroundMusic, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -1446,17 +1446,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
---- !u!114 &850207713 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6159836972773746920, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
+--- !u!82 &850207713 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 974131363991034681, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
   m_PrefabInstance: {fileID: 850207712}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850207714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33f174356953f004a91e6aca27f6484c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &850207714 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6159836972773746922, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
@@ -2250,7 +2244,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1412039817}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: BackgroundMusic, Assembly-CSharp
         m_MethodName: Back
         m_Mode: 1
         m_Arguments:
@@ -2344,9 +2338,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1412039815}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33f174356953f004a91e6aca27f6484c, type: 3}
+  m_Script: {fileID: 11500000, guid: a1a8d4dc9339d0549838f8b519fb63b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kagome: {fileID: 850207713}
 --- !u!1 &1592046272
 GameObject:
   m_ObjectHideFlags: 0
@@ -2577,8 +2572,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 850207713}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+      - m_Target: {fileID: 1412039817}
+        m_TargetAssemblyTypeName: BackgroundMusic, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1
         m_Arguments:

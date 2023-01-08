@@ -1323,7 +1323,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 716511804}
         m_TargetAssemblyTypeName: Customize, Assembly-CSharp
-        m_MethodName: Submit
+        m_MethodName: submit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -12,9 +12,15 @@ public class MainMenu : MonoBehaviour
     public static int level;
     public static float time;
 
+    public static GameObject[] musicObj;
 
-    private void Awake()
+    public void Awake()
     {
+        musicObj = GameObject.FindGameObjectsWithTag("Music");
+        if (musicObj.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
         DontDestroyOnLoad(this);
     }
 
@@ -30,7 +36,7 @@ public class MainMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P) && level >= 1)
         {
            
-            SceneManager.LoadScene(19);
+            SceneManager.LoadScene(25);
         }
 
     }
@@ -38,18 +44,19 @@ public class MainMenu : MonoBehaviour
     //MENU
     public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void Cuztomize()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void Back()
     {
-        SceneManager.LoadScene(0);
-     
+        Destroy(this);
+        SceneManager.LoadScene(1);
+        
     }
 
     public void QuitGame(){
@@ -57,14 +64,8 @@ public class MainMenu : MonoBehaviour
         Application.Quit(); 
     }
 
-    //OptionInGame
 
-    public void Resume()
-    {
-        level--;
-    
-        SceneManager.LoadScene(3);
-    }
+  
 
  
 }

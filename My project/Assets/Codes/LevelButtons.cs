@@ -26,7 +26,7 @@ public class LevelButtons : MonoBehaviour
     public void Button1()
     {
        kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
         MainMenu.level = 1;
 
@@ -35,126 +35,126 @@ public class LevelButtons : MonoBehaviour
     public void Button2()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 2;
+        MainMenu.level = 3;
 
     }
 
     public void Button3()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 3;
+        MainMenu.level = 4;
 
     }
 
     public void Button4()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 4;
+        MainMenu.level = 5;
 
     }
 
     public void Button5()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 5;
+        MainMenu.level = 6;
 
     }
 
     public void Button6()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 6;
+        MainMenu.level = 7;
 
     }
 
     public void Button7()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 7;
+        MainMenu.level = 9;
 
     }
 
     public void Button8()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 8;
+        MainMenu.level = 10;
 
     }
 
     public void Button9()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 9;
+        MainMenu.level = 11;
 
     }
 
     public void Button10()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 10;
+        MainMenu.level = 12;
 
     }
 
     public void Button11()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 11;
+        MainMenu.level = 13;
 
     }
 
     public void Button12()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 12;
+        MainMenu.level = 15;
 
     }
 
     public void Button13()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 13;
+        MainMenu.level = 16;
 
     }
 
     public void Button14()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 14;
+        MainMenu.level = 17;
 
     }
 
     public void Button15()
     {
         kagome.Play();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
-        MainMenu.level = 15;
+        MainMenu.level = 18;
 
     }
 }
