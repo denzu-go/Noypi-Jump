@@ -86,11 +86,7 @@ public class Customize : MonoBehaviour
 
     }
 
-    public void Submit()
-    {
-        PrefabUtility.SaveAsPrefabAsset(Character, "../Asset/Character.prefab");
-        SceneManager.LoadScene(3);
-    }
+
 
 
 }
