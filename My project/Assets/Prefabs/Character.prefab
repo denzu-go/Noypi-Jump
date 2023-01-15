@@ -501,7 +501,6 @@ MonoBehaviour:
   Rleg: {fileID: 3922844510625948839}
   Lleg: {fileID: 3922844509754620843}
   Name: 
-  Text: {fileID: 0}
   Character: {fileID: 3922844509810498245}
   Heads:
   - {fileID: 100648071, guid: 594d73f069515b54c8f9e5e412143c6a, type: 3}
@@ -545,6 +544,14 @@ MonoBehaviour:
   - {fileID: -1463676098, guid: c1c179ea0e5d7554ebd8c2825f9f6f44, type: 3}
   - {fileID: 1839315213, guid: f6169dd97a729394aa515260ec59d1b4, type: 3}
   - {fileID: -1303386557, guid: fec4e5180665cda4cb9b42ba8574322a, type: 3}
+  CharacterName:
+  - Caloocan Boy
+  - 2nd Name
+  - 3rd Name
+  - 4th Name
+  - 5th Name
+  - 6th Name
+  currentOption: 0
 --- !u!1 &3922844510045081476
 GameObject:
   m_ObjectHideFlags: 0
