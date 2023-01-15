@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public static int level;
+    
     public static float time;
 
     public static GameObject[] musicObj;
@@ -33,7 +33,7 @@ public class MainMenu : MonoBehaviour
     private void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.P) && level >= 1)
+        if (Input.GetKeyDown(KeyCode.P) && LevelButtons.level >= 1)
         {
            
             SceneManager.LoadScene(25);
@@ -52,12 +52,7 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(3);
     }
 
-    public void Back()
-    {
-        Destroy(this);
-        SceneManager.LoadScene(1);
-        
-    }
+    
 
     public void QuitGame(){
         Debug.Log("Quit");

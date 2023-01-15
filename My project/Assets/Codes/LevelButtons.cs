@@ -8,13 +8,15 @@ public class LevelButtons : MonoBehaviour
 {
     // Start is called before the first frame update\
 
-   
-    public AudioSource kagome;
-
+    public static int level;
   
+    public GameObject Music;
+    private AudioSource kagome;
+
     void Start()
     {
-     
+        Music = GameObject.FindWithTag("Music");
+        kagome = Music.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,7 +30,7 @@ public class LevelButtons : MonoBehaviour
        kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 1;
+        level = 1;
 
     }
 
@@ -37,7 +39,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 3;
+        level = 3;
 
     }
 
@@ -46,7 +48,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 4;
+        level = 4;
 
     }
 
@@ -55,7 +57,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 5;
+        level = 5;
 
     }
 
@@ -64,7 +66,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 6;
+    level = 6;
 
     }
 
@@ -73,7 +75,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 7;
+        level = 7;
 
     }
 
@@ -82,7 +84,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 9;
+        level = 9;
 
     }
 
@@ -91,7 +93,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 10;
+        level = 10;
 
     }
 
@@ -100,7 +102,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 11;
+        level = 11;
 
     }
 
@@ -109,7 +111,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 12;
+        level = 12;
 
     }
 
@@ -118,7 +120,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 13;
+        level = 13;
 
     }
 
@@ -127,7 +129,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 15;
+       level = 15;
 
     }
 
@@ -136,7 +138,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 16;
+       level = 16;
 
     }
 
@@ -145,7 +147,7 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 17;
+        level = 17;
 
     }
 
@@ -154,7 +156,14 @@ public class LevelButtons : MonoBehaviour
         kagome.Play();
         SceneManager.LoadScene(4);
 
-        MainMenu.level = 18;
+        level = 18;
+
+    }
+
+    public void Back()
+    {
+
+        SceneManager.LoadScene(1);
 
     }
 }

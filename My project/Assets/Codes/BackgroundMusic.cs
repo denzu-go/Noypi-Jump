@@ -8,6 +8,7 @@ using Unity.VisualScripting;
 public class BackgroundMusic : MonoBehaviour
 {
 
+
     public GameObject Music;
     private AudioSource kagome;
 
@@ -19,7 +20,7 @@ public class BackgroundMusic : MonoBehaviour
     private void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.P) && MainMenu.level >= 1)
+        if (Input.GetKeyDown(KeyCode.P) && LevelButtons.level >= 1)
         {
 
             SceneManager.LoadScene(19);
@@ -30,13 +31,15 @@ public class BackgroundMusic : MonoBehaviour
 
     public void Resume()
     {
-        MainMenu.level--;
+        LevelButtons.level--;
 
         SceneManager.LoadScene(4);
     }
     public void PlayGame()
     {
+        kagome.Stop();
         SceneManager.LoadScene(2);
+        LevelButtons.level = 0; 
     }
 
   

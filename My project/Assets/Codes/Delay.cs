@@ -13,8 +13,8 @@ public class Delay : MonoBehaviour
     void Start()
     {
 
-        loadIndex = MainMenu.level;
-        MainMenu.level++;
+        loadIndex = LevelButtons.level;
+        LevelButtons.level++;
         StartCoroutine(TimeDelay());
 
     }

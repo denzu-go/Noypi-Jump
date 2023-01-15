@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &80512753
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,7 +792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &379909103
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,7 +940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &387816206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,9 +1538,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
---- !u!82 &758180010 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 974131363991034681, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
+--- !u!1 &758180010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6159836972773746922, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
   m_PrefabInstance: {fileID: 758180009}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &781015394
@@ -1842,7 +1842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1128247760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,8 +1880,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -846, y: -501}
-  m_SizeDelta: {x: 269.4478, y: 52.2944}
+  m_AnchoredPosition: {x: -846, y: -507.43}
+  m_SizeDelta: {x: 269.4478, y: 65.147}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128247762
 MonoBehaviour:
@@ -1927,8 +1927,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+      - m_Target: {fileID: 1471189642}
+        m_TargetAssemblyTypeName: LevelButtons, Assembly-CSharp
         m_MethodName: Back
         m_Mode: 1
         m_Arguments:
@@ -2124,7 +2124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1231395180
 GameObject:
   m_ObjectHideFlags: 0
@@ -2272,7 +2272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1244516370
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,7 +2420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1258376560
 GameObject:
   m_ObjectHideFlags: 0
@@ -3181,7 +3181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1471189637
 GameObject:
   m_ObjectHideFlags: 0
@@ -3329,7 +3329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1531991774
 GameObject:
   m_ObjectHideFlags: 0
@@ -3550,7 +3550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1745669867
 GameObject:
   m_ObjectHideFlags: 0
@@ -3698,7 +3698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1787966345
 GameObject:
   m_ObjectHideFlags: 0
@@ -3846,7 +3846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1790761487
 GameObject:
   m_ObjectHideFlags: 0
@@ -4264,7 +4264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1903353853
 GameObject:
   m_ObjectHideFlags: 0
@@ -4682,7 +4682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &1973977508
 GameObject:
   m_ObjectHideFlags: 0
@@ -4830,7 +4830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3909cea758b701f4cb3775488163c003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 758180010}
+  Music: {fileID: 758180010}
 --- !u!1 &2028938773
 GameObject:
   m_ObjectHideFlags: 0
