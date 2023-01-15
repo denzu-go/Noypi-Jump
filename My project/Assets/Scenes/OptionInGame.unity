@@ -408,8 +408,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 278.07593, y: -52}
-  m_SizeDelta: {x: 674.93, y: 51.1994}
+  m_AnchoredPosition: {x: 277, y: -63}
+  m_SizeDelta: {x: 578.5146, y: 33.8941}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &148413526
 MonoBehaviour:
@@ -1446,11 +1446,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
---- !u!82 &850207713 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 974131363991034681, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
-  m_PrefabInstance: {fileID: 850207712}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &850207714 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6159836972773746922, guid: 8d252d0019bb97b4cb396c6e57e0c488, type: 3}
@@ -2196,8 +2191,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 279.42966, y: -267}
-  m_SizeDelta: {x: 674.2009, y: 50.5952}
+  m_AnchoredPosition: {x: 306, y: -250}
+  m_SizeDelta: {x: 626.3542, y: 50.5952}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1340829391
 MonoBehaviour:
@@ -2341,7 +2336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1a8d4dc9339d0549838f8b519fb63b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kagome: {fileID: 850207713}
+  Music: {fileID: 0}
 --- !u!1 &1592046272
 GameObject:
   m_ObjectHideFlags: 0
@@ -2379,8 +2374,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 278.07593, y: -163}
-  m_SizeDelta: {x: 674.93, y: 51.1994}
+  m_AnchoredPosition: {x: 296, y: -163}
+  m_SizeDelta: {x: 390.6641, y: 56.8284}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1592046274
 MonoBehaviour:
@@ -2525,8 +2520,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 280.3147, y: 48.5659}
-  m_SizeDelta: {x: 673.5732, y: 41.6548}
+  m_AnchoredPosition: {x: 287, y: 22}
+  m_SizeDelta: {x: 371.9662, y: 51.5435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671034818
 MonoBehaviour:
